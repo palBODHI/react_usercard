@@ -1,0 +1,42 @@
+nav {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  transition-duration: .5s;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.user-grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 30px;
+}
+
+.user-card {
+  border: 1px solid #080707;
+  padding: 30px;
+  text-align: center;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
